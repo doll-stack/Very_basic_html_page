@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>University Registration Form</h1>
+    <p>Please fill out the form below to register.</p>
+    <hr>
+    <form>
+        <h2>Personal Details:- </h2>
+        <label for="Firstname">First Name:</label>
+        <input type="text" id="Firstname" name="Firstname" placeholder="Enter your first name">
+        <br><br>
+        <label for="Lastname">Last Name:</label>
+        <input type="text" id="Lastname" name="Lastname" placeholder="Enter your last name">
+        <br><br>
+        <label for="dateofbirth">Date of Birth:</label>
+        <input type="date" id="dateofbirth" name="dateofbirth">
+        <br><br>
+        <lable for="gender" >Gender: </lable>
+        <br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br><br>
+        <label for="photo">Upload your photo:</label>
+        <br>
+        <input type="file" id="photo" name="photo">
+        <br><br>
+        <hr>
+        <h2>Contact Details:- </h2>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <br><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" type="number" id="phone" name="phone" placeholder="Enter your phone number">
+        <br><br>
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" placeholder="Enter your address">
+        <br><br>
+        <hr>
+        <h2>Academic Details:- </h2>
+        <label for="course">Course:</label>
+        <select id="course" name="course">
+            <option value="btech">B.Tech</option>
+            <option value="bca">B.CA</option>
+            <option value="bsc">B.S.C</option>
+        </select>
+        <br><br>
+        <label for="extracurricular">Extracurricular Activities:</label>
+        <br>
+        <input type="checkbox" id="sports" name="extracurricular" value="sports">
+        <label for="sports">Sports</label>
+        <br>
+        <input type="checkbox" id="music" name="extracurricular" value="music">
+        <label for="music">Music</label>    
+        <br>
+        <input type="checkbox" id="arts" name="extracurricular" value="arts">
+        <label for="arts">Arts</label>
+        <br><br>
+        <hr>
+        <h2>Create Your Account</h2>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Create a password">
+        <br><br>
+        <lable for="security question">Security Question:</lable>
+        <select id="security question" name="security question">
+            <option value="pet">What is your pet's name?</option>
+            <option value="school">What is the name of your first school?</option>
+            <option value="city">In which city were you born?</option>
+        </select>
+        <br><br>
+        <label for="security answer">Answer:</label>
+        <input type="text" id="security answer" name="security answer" placeholder="Enter your answer">
+        <br><br>
+        <input type="checkbox" id="terms" name="terms" value="terms">
+        <label for="terms">I agree to the terms and conditions</label>
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="clear form">
+    </form>
+</body>
+</html>

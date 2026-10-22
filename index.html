@@ -36,4 +36,85 @@
 <img src="https://tse4.mm.bing.net/th/id/OIP.pQsh6xXCnQGXCoKwqJRcrQHaDt?r=0&pid=Api&h=220&P=0" height="200px" width="200px"> <!-- this is used to display image from interneyt -->
 <img src="image.jpg"> <!-- this is used to display image from local storage -->
 
+<!-- Table tag <table>, <tr>, <th>, <td> are used to create tables in HTML -->
+<table border="1">
+  <thead>
+    <tr><!-- <tr> defines a table row -->
+      <th>Name</th><!-- <th> defines a table header -->
+      <th>Role</th>
+    </tr>
+  </thead>
 
+  <tbody>
+      <tr>
+        <td>Rohit</td><!-- <td> defines a table data-->
+        <td>Frontend Developer</td>
+      
+      </tr>
+      <tr>
+        <td>Dolly</td>
+        <td>Backend Developer</td>
+      </tr>
+      <tr>
+        <td>Revu</td>
+        <td>Full-Stack Developer</td>
+      </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="2">These are Engineers</td>
+    </tr>
+</table>
+
+<!-- Boilerplate code -->
+ <!DOCTYPE html><!--new version of html5 -->
+ <html lang="en"><!--opening tag of html-->
+ <head> <!--content which is not visible but is important for the browser to understand the content of the page-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title> <!--title of the web page-->
+ </head>
+ <body>
+      <!-- the content which you want to display -->
+ </body>
+ </html>
+
+ <!-- div tag is used to group HTML elements -->
+<div>
+  <p>This is a paragraph inside a div.</p>
+</div>
+
+<!-- Form tag is used to create interactive forms -->
+<form>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name"><!--name="name" is used to identify the input field when the form is submitted -->
+  <br>
+  <br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><!--name="email" is used to identify the email input field when the form is submitted -->
+  <br>
+  <br>
+  <label for="gender">Gender:</label>
+  <input type="radio" id="male" name="gender" value="male"><!--radio is ised for selecting one option -->
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <br>
+  <br>
+  <label for="language">Languages:</label><!--checkbox is used for selecting multiple options -->
+  <br>
+  <label for="CPP">C++</label>
+  <input type="checkbox" id="CPP" name="language" value="CPP">
+  <br>
+  <label for="Python">Python</label>
+  <input type="checkbox" id="Python" name="language" value="Python">
+  <br>
+  <label for="Java">Java</label>
+  <input type="checkbox" id="Java" name="language" value="Java">
+  <br>
+  <label for="JavaScript">JavaScript</label>
+  <input type="checkbox" id="JavaScript" name="language" value="JavaScript">
+  <br>
+  <br>
+  <input type="submit" value="Submit">
+</form>
